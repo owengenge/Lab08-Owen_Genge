@@ -19,4 +19,16 @@ public class CustomList {
     public boolean hasCity(City city) {
         return cities.contains(city);
     }
+    /*
+    public void deleteCity(City city) {
+        if (!cities.contains(city)) {
+            throw new IllegalArgumentException();
+        }
+        cities.remove(city);
+    }
+    /*
+    public int countCities() {
+        return cities.size();
+    }
+    */
 }
