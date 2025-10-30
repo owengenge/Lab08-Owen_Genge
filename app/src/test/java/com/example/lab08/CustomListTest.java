@@ -34,7 +34,6 @@ public class CustomListTest {
         });
     }
 
-    /*
     @Test
     void testCountCities() {
         CustomList cityList = mockCityList();
@@ -45,7 +44,6 @@ public class CustomListTest {
         cityList.deleteCity(city);
         assertEquals(0, cityList.countCities());
     }
-     */
 
 
 }
